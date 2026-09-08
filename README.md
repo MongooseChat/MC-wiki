@@ -29,6 +29,3 @@ These pages include guides on the process of creating a Project Zomboid dedicate
 These pages include guides on how to create lua mods and information about lua and kahlua used by the game while also touching on the java side of the game.
 ### MongooseChat systems and mod settings
 These pages go over how to setup your MongooseChat instance to work best for you and your friends while also showing how to create content for MongooseChat
-
-
-## THESE GUIDES ARE FULLY WRITTEN AND CREATED BY HUMANS WE DO NOT CONSENT TO IT BEING USED FOR TRAINING GENERATIVE AI
