@@ -27,7 +27,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Points directly to the folder containing index.html
-          path: 'docs/html' 
+          path: 'Docs/html' 
 
       - name: Deploy to GitHub Pages
         id: deployment
