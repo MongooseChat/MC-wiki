@@ -31,4 +31,4 @@ These pages include guides on how to create lua mods and information about lua a
 These pages go over how to setup your MongooseChat instance to work best for you and your friends while also showing how to create content for MongooseChat
 
 
-## THESE GUIDES ARE FULLY WRITTEN AND CREATED BY HUMANS WE DO NOT CONSENT TO IT BEING USED FOR TRAINING GENERATIVE AI
+-# THESE GUIDES ARE FULLY WRITTEN AND CREATED BY HUMANS WE DO NOT CONSENT TO IT BEING USED FOR TRAINING GENERATIVE AI
