@@ -18,14 +18,74 @@ Launching the game
 
 When first launching into the game there will be multiple options in the title screen, here is a rundown of all of them.
 
-#. Continue: This button is to play your last played single player world.
-#. Load: This shows your past single player worlds titled by date and time it was last played.
-#. Tutorial: This is a simple tutorial world that can show you the basics of movement and mechanics of the game.
-#. Solo: This is the button to create a single player world.
-#. Multiplayer: This lets you connect to dedicated servers created by other players.
-#. Host: This hosts a dedicated server on your local mechine. This is not the same as co-op play.
-#. Options: These are your settings for the game.
-#. Mods: Here is where you enable/disable/reorder downloaded mods.
-#. Workshop: This is where you go to upload content to the workshop like mods and maps you have created.
-#. Credits: The people who went into creating Project Zomboid.
-#. Quit: Exits to desktop
+Menu options
+============
+
+.. sidebar:: 
+
+    .. image:: /How-to-play/Images/TitleScreen.png
+
+Continue
+------------
+
+This button is to play your last played single player world.
+
+
+Load
+------------
+
+This shows your past single player worlds titled by date and time it was last played.
+
+
+Tutorial
+------------
+
+This is a simple tutorial world that can show you the basics of movement and mechanics of the game.
+
+
+Solo
+------------
+
+This is the button to create a single player world.
+
+
+Multiplayer
+------------
+
+This lets you connect to dedicated servers created by other players.
+
+
+Host
+------------
+
+This hosts a dedicated server on your local mechine. This is not the same as co-op play.
+
+
+Options
+------------
+
+These are your settings for the game.
+
+
+Mods
+------------
+
+Here is where you enable/disable/reorder downloaded mods.
+
+
+Workshop
+------------
+
+This is where you go to upload content to the workshop like mods and maps you have created.
+
+
+Credits
+------------
+
+The people who went into creating Project Zomboid.
+
+
+Quit
+------------
+
+Exits to desktop

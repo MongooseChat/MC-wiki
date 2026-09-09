@@ -10,7 +10,8 @@ Welcome to the MC-wiki Project Zomboid wiki created by the MongooseChat team! Yo
    :caption: How to play Zroject Zomboid:
 
    How-to-play/Introduction
-   How-to-play/ZomboidBasics
+   How-to-play/ZomboidLaunch
+   How-to-play/SoloGameplay
 
 .. toctree::
    :maxdepth: 2
