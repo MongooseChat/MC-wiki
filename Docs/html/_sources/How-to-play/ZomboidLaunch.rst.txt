@@ -21,9 +21,11 @@ When first launching into the game there will be multiple options in the title s
 Menu options
 ============
 
-.. sidebar:: 
-
+.. sidebar::
+    
     .. image:: /How-to-play/Images/TitleScreen.png
+        :align: center
+        :width: 100%
 
 Continue
 ------------
