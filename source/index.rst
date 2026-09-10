@@ -5,12 +5,12 @@ MC-Wiki
 Welcome to the MC-wiki 
 ----------------------
 
-a Project Zomboid wiki created by the MongooseChat team! You can request guides for specific things or submit your own guide suggestions in the issues section of the github repo.
+a Project Zomboid wiki created by the MongooseChat team! You can request guides for specific things or submit you're own guide suggestions in the issues section of the Github repo.
 
 Where to start
 --------------
 
-If your a new player we would recommend starting from the page for :doc:`launching the game </How-to-play/ZomboidLaunch>`
+If you're a new player we would recommend starting from the page for :doc:`launching the game </How-to-play/ZomboidLaunch>`
 
 
 --------------
