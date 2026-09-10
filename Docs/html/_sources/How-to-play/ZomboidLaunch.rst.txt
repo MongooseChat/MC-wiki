@@ -5,7 +5,10 @@ Launching the game
 .. tab-set::
     .. tab-item:: Windows
 
-        No launch options in windows but just make sure you know the folders where it's installed for later tutorials because the :doc:`file paths </Modding-zomboid/FilePaths>` given in other guides will be for default installation location.
+        For windows there is three launch options.
+        #. Play Project Zomboid
+        #. Alternate Launch (May work when default fails)
+        #. Compatibility mode
 
     .. tab-item:: Linux
 
