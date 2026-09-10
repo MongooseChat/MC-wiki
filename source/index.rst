@@ -20,7 +20,7 @@ Index:
 
 .. toctree::
    :maxdepth: 2
-   :caption: How to play Zroject Zomboid:
+   :caption: How to play Project Zomboid:
 
    How-to-play/Introduction
    How-to-play/ZomboidLaunch
