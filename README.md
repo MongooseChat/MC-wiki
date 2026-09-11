@@ -1,5 +1,5 @@
 # MC-wiki
-Welcome to the collection of Project Zomboid guides created by the MongooseChat team! In these guides we aim to make the game of Project Zomboid have more resources at players disposal so that it can supplement the hours of google searching people sometimes have to do.
+Welcome to the collection of Project Zomboid guides created by the MongooseChat team! In these guides we aim to make the game of Project Zomboid have more resources at player disposal so that it can supplement the hours of google searching people sometimes have to do.
 
 ## Sections
 > <dl>
@@ -28,4 +28,4 @@ These pages include guides on the process of creating a Project Zomboid dedicate
 ### Mod creation and creating game content
 These pages include guides on how to create lua mods and information about lua and kahlua used by the game while also touching on the java side of the game.
 ### MongooseChat systems and mod settings
-These pages go over how to setup your MongooseChat instance to work best for you and your friends while also showing how to create content for MongooseChat
+These pages go over how to setup your MongooseChat instance to work best for you and your friends while also showing how to create content for MongooseChat.
