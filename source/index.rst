@@ -5,7 +5,7 @@ MC-Wiki
 Welcome to the MC-wiki 
 ----------------------
 
-a Project Zomboid wiki created by the MongooseChat team! You can request guides for specific things or submit you're own guide suggestions in the issues section of the Github repo.
+a Project Zomboid wiki created by the MongooseChat team! You can request guides for specific things or submit you're own guide suggestions in the issues section of the `Github repo <https://github.com/MongooseChat/MC-wiki>`_.
 
 Where to start
 --------------

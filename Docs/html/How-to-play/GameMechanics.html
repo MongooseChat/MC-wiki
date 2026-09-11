@@ -7,6 +7,8 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://mongoosechat.github.io/MC-wiki/How-to-play/GameMechanics.html" />
 <meta property="og:site_name" content="MC-Wiki" />
+<meta property="og:description" content="Traits: Positive Traits: This is a list of the vanilla positive traits and a description of what they do:,,,, Name, Points, Description, Effect,,, Adrenaline Junkie,-4, Moves faster when highly pan..." />
+<meta name="description" content="Traits: Positive Traits: This is a list of the vanilla positive traits and a description of what they do:,,,, Name, Points, Description, Effect,,, Adrenaline Junkie,-4, Moves faster when highly pan..." />
 <link rel="index" title="Index" href="../genindex.html"><link rel="search" title="Search" href="../search.html"><link rel="next" title="Game settings" href="GameSettings.html"><link rel="prev" title="Co-op gameplay" href="Co-op.html">
 
     <!-- Generated with Sphinx 9.1.0 and Furo 2025.12.19 -->
@@ -184,7 +186,7 @@
           <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
         </button>
       </div>
-      <label class="toc-overlay-icon toc-header-icon no-toc" for="__toc">
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
         <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
       </label>
     </div>
@@ -261,13 +263,471 @@
               <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
             </button>
           </div>
-          <label class="toc-overlay-icon toc-content-icon no-toc" for="__toc">
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
             <span class="icon"><svg><use href="#svg-toc"></use></svg></span>
           </label>
         </div>
         <article role="main" id="furo-main-content">
           <section id="basic-game-mechanics">
 <h1>Basic game mechanics<a class="headerlink" href="#basic-game-mechanics" title="Link to this heading">¶</a></h1>
+<section id="traits">
+<h2>Traits<a class="headerlink" href="#traits" title="Link to this heading">¶</a></h2>
+<section id="positive-traits">
+<h3>Positive Traits<a class="headerlink" href="#positive-traits" title="Link to this heading">¶</a></h3>
+<p>This is a list of the vanilla positive traits and a description of what they do:</p>
+<div class="table-wrapper colwidths-given docutils container">
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 12.5%" />
+<col style="width: 4.2%" />
+<col style="width: 41.7%" />
+<col style="width: 41.7%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Points</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Effect</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Adrenaline Junkie</p></td>
+<td><p>-4</p></td>
+<td><p>Moves faster when highly panicked.</p></td>
+<td><p>Adds a flat bonus of 0.20 or 0.25 to the character’s base speed at Strong or Extreme Panic, which increases walking, running, and sprinting speed.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Angler</p></td>
+<td><p>-4</p></td>
+<td><p>+1 Fishing</p></td>
+<td><div class="line-block">
+<div class="line">+1 Fishing</div>
+<div class="line">Knows how to make and fix a fishing rod and how to make chum.</div>
+<div class="line">Improves foraging.</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Artisan</p></td>
+<td><p>-2</p></td>
+<td><p>Better at pottery and glass crafts.</p></td>
+<td><div class="line-block">
+<div class="line">+1 Glassmaking</div>
+<div class="line">+1 Pottery</div>
+<div class="line">Unlocks several glass recipes.</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Athletic</p></td>
+<td><p>-10</p></td>
+<td><div class="line-block">
+<div class="line">Faster running speed.</div>
+<div class="line">Can run for longer without tiring.</div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">+4 Fitness</div>
+<div class="line">+20% running/sprinting speed.</div>
+<div class="line">-20% running/sprinting endurance loss from the trait itself.</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Baseball Player</p></td>
+<td><p>-4</p></td>
+<td><p>+1 Long Blunt</p></td>
+<td><div class="line-block">
+<div class="line">+1 Long Blunt</div>
+<div class="line">Knows how to carve baseball bats.</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Blacksmith Knowledge</p></td>
+<td><p>-6</p></td>
+<td><p>Can use an anvil to create metal items.</p></td>
+<td><div class="line-block">
+<div class="line">+1 Maintenance</div>
+<div class="line">+2 Blacksmithing</div>
+<div class="line">Unlocks several recipes.</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Brave</p></td>
+<td><p>-4</p></td>
+<td><p>Less prone to becoming panicked.</p></td>
+<td><p>30% panic, except for night terrors and phobias.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Brawler</p></td>
+<td><p>-6</p></td>
+<td><div class="line-block">
+<div class="line">+1 Axe</div>
+<div class="line">+1 Long Blunt</div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">+1 Axe</div>
+<div class="line">+1 Long Blunt</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Cat’s Eyes</p></td>
+<td><p>-3</p></td>
+<td><p>Better vision at night.</p></td>
+<td><div class="line-block">
+<div class="line">+20% better vision at night</div>
+<div class="line">Improves foraging.</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Crafty</p></td>
+<td><p>-3</p></td>
+<td><p>Increased XP gains for Crafting skills.</p></td>
+<td><p>130% XP for all crafting skills</p></td>
+</tr>
+<tr class="row-even"><td><p>Dextrous</p></td>
+<td><p>-2</p></td>
+<td><div class="line-block">
+<div class="line">Transfers inventory items quickly.</div>
+<div class="line">Faster rope climbing speed, and less chance of falling.</div>
+<div class="line">Faster weapon shouldering time.</div>
+</div>
+</td>
+<td><p>50% inventory transfer time.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Eagle Eyed</p></td>
+<td><p>-4</p></td>
+<td><div class="line-block">
+<div class="line">Faster visibility fade.</div>
+<div class="line">Higher visibility arc.</div>
+<div class="line">Weapon sights more effective at long range.</div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">Character has a wider field of view.</div>
+<div class="line">Improves foraging.</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Fast Healer</p></td>
+<td><p>-6</p></td>
+<td><p>Recovers quickly from injuries and illness.</p></td>
+<td><div class="line-block">
+<div class="line">Does not apply to exercise fatigue.</div>
+<div class="line">Recently inflicted injuries have less severity.</div>
+<div class="line">Including Scratches, Lacerations, Lodged Bullets, Deep wounds (with/without glass), Bites and Fractures. (Check Health for more details.)</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Fast Learner</p></td>
+<td><p>-6</p></td>
+<td><p>Increases XP gains.</p></td>
+<td><p>130% XP for all skills except Strength and Fitness.</p></td>
+</tr>
+<tr class="row-even"><td><p>Fast Reader</p></td>
+<td><p>-2</p></td>
+<td><p>Takes less time to read books.</p></td>
+<td><p>130% reading speed.</p></td>
+</tr>
+<tr class="row-odd"><td><p>First Aider</p></td>
+<td><p>-2</p></td>
+<td><p>+1 First Aid</p></td>
+<td><p>+1 First Aid</p></td>
+</tr>
+<tr class="row-even"><td><p>Fit</p></td>
+<td><p>-6</p></td>
+<td><p>+2 Fitness</p></td>
+<td><p>+2 Fitness.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Former Scout</p></td>
+<td><p>-6</p></td>
+<td><p>Start fires faster.</p></td>
+<td><div class="line-block">
+<div class="line">+1 First Aid</div>
+<div class="line">+1 Fishing</div>
+<div class="line">+1 Foraging Knows how to make and fix a fishing rod and how to make chum.</div>
+<div class="line">Improves foraging.</div>
+<div class="line">Start a fire on campfires with notched plank faster.</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Gardener</p></td>
+<td><p>-2</p></td>
+<td><p>+1 Agriculture</p></td>
+<td><div class="line-block">
+<div class="line">+1 Agriculture</div>
+</div>
+<p><a href="#id1"><span class="problematic" id="id2">|</span></a>Improves foraging.
+| Unlocks several recipes.</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Graceful</p></td>
+<td><p>-4</p></td>
+<td><p>Makes less noise when moving.</p></td>
+<td><p>60% footsteps sound radius.</p></td>
+</tr>
+<tr class="row-even"><td><p>Gymnast</p></td>
+<td><p>-5</p></td>
+<td><div class="line-block">
+<div class="line">+1 Lightfooted</div>
+<div class="line">+1 Nimble</div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">+1 Lightfooted</div>
+<div class="line">+1 Nimble</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Handy</p></td>
+<td><p>-8</p></td>
+<td><p>Faster and stronger constructions.</p></td>
+<td><div class="line-block">
+<div class="line">+1 Carpentry</div>
+<div class="line">+1 Carving</div>
+<div class="line">+1 Maintenance</div>
+<div class="line">+1 Masonry</div>
+<div class="line">+100HP to all constructions.</div>
+<div class="line">Increases building speed (≈11%).</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Herbalist</p></td>
+<td><p>-4</p></td>
+<td><p>Can find medicinal herbs and craft medicines and poultices from them.</p></td>
+<td><div class="line-block">
+<div class="line">+1 Foraging.</div>
+<div class="line">Able to find herbal medicines, make poultices from them, and identify poisonous wild food.</div>
+<div class="line">Improves foraging.</div>
+<div class="line">Unlocks several recipes.</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Hiker</p></td>
+<td><p>-5</p></td>
+<td><div class="line-block">
+<div class="line">+1 Foraging</div>
+<div class="line">+1 Trapping</div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">+1 Foraging</div>
+<div class="line">+1 Trapping Improves foraging.</div>
+<div class="line">Unlocks several trap recipes.</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Hunter</p></td>
+<td><p>-8</p></td>
+<td><div class="line-block">
+<div class="line">+1 Aiming</div>
+<div class="line">+1 Butchering</div>
+<div class="line">+1 Short Blade</div>
+<div class="line">+1 Sneaking</div>
+<div class="line">+1 Tracking</div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">+1 Aiming</div>
+<div class="line">+1 Butchering</div>
+<div class="line">+1 Short Blade</div>
+<div class="line">+1 Sneaking</div>
+<div class="line">+1 Tracking Improves foraging.</div>
+<div class="line">Unlocks several trap and trophy recipes.</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Inconspicuous</p></td>
+<td><p>-4</p></td>
+<td><p>Less likely to be spotted by zombies.</p></td>
+<td><p>50% chance of zombies spotting you.</p></td>
+</tr>
+<tr class="row-even"><td><p>Inventive</p></td>
+<td><p>-2</p></td>
+<td><p>Has lower skill level requirements to research recipes from items or auto learn recipes.</p></td>
+<td><p>Reduced auto-learn skill points by 1</p></td>
+</tr>
+<tr class="row-odd"><td><p>Iron Gut</p></td>
+<td><p>-2</p></td>
+<td><p>Less chance to have food illness.</p></td>
+<td><div class="line-block">
+<div class="line">50% chance of food illness.</div>
+<div class="line">Food illness lasts shorter.</div>
+<div class="line">Check Health for more details.</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Keen Cook</p></td>
+<td><p>-3</p></td>
+<td><p>Knows cooking recipes.</p></td>
+<td><div class="line-block">
+<div class="line">+2 Cooking</div>
+<div class="line-block">
+<div class="line">+1 Butchering</div>
+</div>
+<div class="line">Improves foraging.</div>
+<div class="line">Unlocks several cooking recipes.</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Keen Hearing</p></td>
+<td><p>-6</p></td>
+<td><p>Larger perception radius.</p></td>
+<td><div class="line-block">
+<div class="line">200% perception radius.</div>
+<div class="line">Zombies that approach from behind will be visible much earlier.</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Light Eater</p></td>
+<td><p>-2</p></td>
+<td><p>Needs to eat less regularly.</p></td>
+<td><p>75% hunger.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Low Thirst</p></td>
+<td><p>-2</p></td>
+<td><p>Needs less water to survive.</p></td>
+<td><p>50% thirst.</p></td>
+</tr>
+<tr class="row-even"><td><p>Mason</p></td>
+<td><p>-2</p></td>
+<td><p>Better at building stone and brick constructions.</p></td>
+<td><div class="line-block">
+<div class="line">+2 Masonry</div>
+<div class="line">Unlocks several recipes.</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Nutritionist</p></td>
+<td><p>-2</p></td>
+<td><p>Can see the nutritional values of any food.</p></td>
+<td><div class="line-block">
+<div class="line">Allows the player to see the nutritional values of any food, even those that aren’t packaged.</div>
+<div class="line">Improves foraging.</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Organized</p></td>
+<td><p>-4</p></td>
+<td><p>Increased container inventory capacity.</p></td>
+<td><p>130% capacity for all containers, including boxes, cupboards and cars.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Outdoorsy</p></td>
+<td><p>-2</p></td>
+<td><p>Less affected by harsh weather conditions.</p></td>
+<td><div class="line-block">
+<div class="line">10% chance of catching a cold. 1% or 1.25% chance of getting scratched/lacerated while walking or running through trees.</div>
+<div class="line">Improves foraging.</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Resilient</p></td>
+<td><p>-4</p></td>
+<td><div class="line-block">
+<div class="line">Less prone to disease.</div>
+<div class="line">Slower rate of zombification.</div>
+</div>
+</td>
+<td><p>75% zombification progression rate, 45% chance of catching a cold, 80% cold strength, and 50% cold progression speed.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Runner</p></td>
+<td><p>-4</p></td>
+<td><p>+1 Sprinting</p></td>
+<td><p>+1 Sprinting</p></td>
+</tr>
+<tr class="row-even"><td><p>Sewer</p></td>
+<td><p>-4</p></td>
+<td><p>+1 Tailoring</p></td>
+<td><div class="line-block">
+<div class="line">+1 Tailoring</div>
+<div class="line">Unlocks several recipes.</div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Speed Demon</p></td>
+<td><p>-1</p></td>
+<td><p>Drives very fast.</p></td>
+<td><p>200% gear-switching speed, 115% top speed for all vehicles.</p></td>
+</tr>
+<tr class="row-even"><td><p>Stout</p></td>
+<td><p>-6</p></td>
+<td><div class="line-block">
+<div class="line">Extra knockback from melee weapons.</div>
+<div class="line">Increased carrying weight.</div>
+</div>
+</td>
+<td><p>+2 Strength</p></td>
+</tr>
+<tr class="row-odd"><td><p>Strong</p></td>
+<td><p>-10</p></td>
+<td><p><a href="#id3"><span class="problematic" id="id4">|</span></a>Extra knockback from melee weapons.
+| Increased carrying weight.</p></td>
+<td><p>+4 Strength, +40% knockback power (damage does not increase).</p></td>
+</tr>
+<tr class="row-even"><td><p>Target Shooter</p></td>
+<td><p>-5</p></td>
+<td><p>+1 Aiming</p></td>
+<td><p>+1 Aiming</p></td>
+</tr>
+<tr class="row-odd"><td><p>Thick Skinned</p></td>
+<td><p>-8</p></td>
+<td><p>Lower chance of being scratched or bitten.</p></td>
+<td><div class="line-block">
+<div class="line">Multiplies the chance of not being injured by a zombie attack by 1.3 (base 15% chance, modified by character’s weapon skill).</div>
+<div class="line">Additionally, alters the chance of clothes being damaged by walking through trees to 1 in 13.</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Tinkerer</p></td>
+<td><p>-4</p></td>
+<td><p>+1 Maintenance</p></td>
+<td><p>+1 Maintenance</p></td>
+</tr>
+<tr class="row-odd"><td><p>Vehicle Knowledge</p></td>
+<td><p>-3</p></td>
+<td><p>Has knowledge of common and commercial vehicle models, and repairs.</p></td>
+<td><div class="line-block">
+<div class="line">+1 Mechanics</div>
+<div class="line">Can repair standard and heavy-duty vehicles.</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Wakeful</p></td>
+<td><p>-3</p></td>
+<td><p>Needs less sleep.</p></td>
+<td><p>-30% Fatigue increase rate, +10% Sleep efficiency</p></td>
+</tr>
+<tr class="row-odd"><td><p>Whittler</p></td>
+<td><p>-2</p></td>
+<td><p>Can carve wood and bone items.</p></td>
+<td><div class="line-block">
+<div class="line">+2 Carving</div>
+<div class="line">Can craft Bone Fishing Hook, Bone Sewing Needle, and sharpen animal bones.</div>
+<div class="line">Improves foraging.</div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><p>Bushcrafter</p></td>
+<td><p>-8</p></td>
+<td><div class="line-block">
+<div class="line">Can find medicinal herbs and craft medicines and poultices from them, and make simple stone and bone tools.</div>
+<div class="line">Start fires faster.</div>
+</div>
+</td>
+<td><div class="line-block">
+<div class="line">+1 Carving</div>
+<div class="line">+1 Foraging</div>
+<div class="line">+1 Knapping</div>
+<div class="line">+1 Maintenance</div>
+<div class="line">Improves foraging.</div>
+<div class="line">Start a fire on campfires with notched plank faster.</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="negitive-traits">
+<h3>Negitive Traits<a class="headerlink" href="#negitive-traits" title="Link to this heading">¶</a></h3>
+</section>
+</section>
 </section>
 
         </article>
@@ -313,8 +773,31 @@
         
       </footer>
     </div>
-    <aside class="toc-drawer no-toc">
+    <aside class="toc-drawer">
       
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            On this page
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">Basic game mechanics</a><ul>
+<li><a class="reference internal" href="#traits">Traits</a><ul>
+<li><a class="reference internal" href="#positive-traits">Positive Traits</a></li>
+<li><a class="reference internal" href="#negitive-traits">Negitive Traits</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
       
       
     </aside>
